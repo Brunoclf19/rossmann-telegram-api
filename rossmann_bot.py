@@ -147,7 +147,7 @@ def index():
         store = int(d2['Store'].iloc[0])
         total = float(d2['predictions'].iloc[0])
 
-        msg = f'Store {store}: Sales R${total:,.2f} nas próximas 6 semanas.'
+        msg = f'A loja {store}: venderá R${total:,.2f} nas próximas 6 semanas.'
         send_message(chat_id, msg)
         return Response('Ok', status=200)
 
