@@ -20,7 +20,7 @@ from flask import Flask, request, Response
 # https://api.telegram.org/bot8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w/sendMessage?chat_id=1907985452&text=Hi Bruno, I'm doing good, thanks!
 
 # ---- CONFIG ----
-TOKEN = '8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w'
+TOKEN = '8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA'
 TELEGRAM_API = f'https://api.telegram.org/bot{TOKEN}'
 PREDICT_URL = 'https://teste-api-render-bzme.onrender.com/rossmann/predict'
 
