@@ -6,21 +6,21 @@ import logging
 
 from flask import Flask, request, Response
 
-# TOKEN = 8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w
+# TOKEN = 8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA
 # getMe - info about bot 
-# https://api.telegram.org/bot8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w/getMe 
+# https://api.telegram.org/bot8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA/getMe 
 
 # get updates 
-# https://api.telegram.org/bot8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w/getUpdates 
+# https://api.telegram.org/bot8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA/getUpdates 
 
 # Webhook
-# https://api.telegram.org/bot8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w/setWebhook?url=
+# https://api.telegram.org/bot8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA/setWebhook?url=
 
 # send message 
-# https://api.telegram.org/bot8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w/sendMessage?chat_id=1907985452&text=Hi Bruno, I'm doing good, thanks!
+# https://api.telegram.org/bot8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA/sendMessage?chat_id=1907985452&text=Hi Bruno, I'm doing good, thanks!
 
 # ---- CONFIG ----
-TOKEN = '8212313991:AAF8rp94mKsCb2XYAuSQ4flIxJokFqok33w'
+TOKEN = '8212313991:AAElRsQ6GdEkYD2ADAppnVIQMUuf1w4TiJA'
 TELEGRAM_API = f'https://api.telegram.org/bot{TOKEN}'
 PREDICT_URL = 'https://teste-api-render-bzme.onrender.com/rossmann/predict'
 
