@@ -38,10 +38,13 @@ def send_message(chat_id, text):
     except Exception as e:
         logging.exception('Erro em send_message: %s', e)
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  
+DATA_DIR = os.path.join(BASE_DIR, 'data', 'raw')
+
 def load_dataset(store_id):
     # Ajuste os caminhos se necessário
-    test_path = r'test.csv'
-    store_path = r'store.csv'
+    test_path  = os.path.join(DATA_DIR, 'test.csv')
+    store_path = os.path.join(DATA_DIR, 'store.csv')
 
     df10 = pd.read_csv(test_path)
     df_store_raw = pd.read_csv(store_path)
