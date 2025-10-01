@@ -148,7 +148,7 @@ param_tuned = {
 O modelo final foi colocado em **produção** por meio de uma **API desenvolvida em FastAPI**, integrada a um **bot no Telegram**.  
 
 📌 Funcionamento:
-1. O usuário envia um comando no Telegram para prever o faturamento nos próximos 6 meses (ex.: `12`).
+1. O usuário envia um comando para o bot no Telegram (ex.: `12`).
 2. O bot consulta a **API em tempo real**.
 3. A previsão de vendas para as próximas 6 semanas é retornada diretamente na conversa.
 
